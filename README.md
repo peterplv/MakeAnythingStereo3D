@@ -1,5 +1,5 @@
 # MakeAnything3D
-## Make anything (images/video) into 3D with Depth-Anything-V2
+### Make anything (images/video) into 3D with Depth-Anything-V2
 
 make_depth.py - only for making depth for one image.  
 make_3d.py - only for making one 3d image with depth from make_depth.py.  
