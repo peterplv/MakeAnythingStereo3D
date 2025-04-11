@@ -52,15 +52,13 @@ new_height = 0
 
 
 def image_size_correction(current_height, current_width, left_image, right_image):
-    ''' Коррекция размеров изображения, если заданы new_width и new_height '''
+    ''' Коррекция размеров изображения если заданы new_width и new_height '''
     
     # Вычисляем смещения для центрирования
     top = (new_height - current_height) // 2
-    bottom = new_height - current_height - top
     left = (new_width - current_width) // 2
-    right = new_width - current_width - left
     
-    # Создаем черное полотно нужного размера
+    # Создаем черный холст нужного размера
     new_left_image = np.zeros((new_height, new_width, 3), dtype=np.uint8)
     new_right_image = np.zeros((new_height, new_width, 3), dtype=np.uint8)
     
@@ -95,7 +93,7 @@ def image3d_processing(image_name, image, depth):
     left_image = cv2.remap(image, shift_left, y, interpolation=INTERPOLATION_TYPE)
     right_image = cv2.remap(image, shift_right, y, interpolation=INTERPOLATION_TYPE)
     
-    if new_width != 0 and new_height != 0:
+    if new_width and new_height:
         left_image, right_image = image_size_correction(height, width, left_image, right_image)
         # Меняем значения исходных размеров изображений на new_height и new_width для корректного склеивания ниже
         height = new_height
