@@ -138,7 +138,7 @@ def image3d_processing(image, depth):
 def image3d_combining(left_image, right_image, height, width):   
     ''' Function for combining stereo pair images into a single 3D image '''
     
-    # Image correction if new_width and new_height are set
+    # Images size correction if new_width and new_height are set
     if new_width and new_height:
         left_image, right_image = image_size_correction(height, width, left_image, right_image)
         # Change the values of the original image sizes to new_height and new_width for correct gluing below
