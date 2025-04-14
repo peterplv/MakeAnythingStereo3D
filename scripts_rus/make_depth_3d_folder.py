@@ -138,14 +138,14 @@ def image3d_processing(image, depth):
 def image3d_combining(left_image, right_image, height, width):   
     ''' Функция объединения изображений стереопары в единое 3D изображение '''
     
-    # Корректировка изображений, если заданы new_width и new_height
+    # Корректировка размеров изображений, если заданы new_width и new_height
     if new_width and new_height:
         left_image, right_image = image_size_correction(height, width, left_image, right_image)
         # Меняем значения исходных размеров изображений на new_height и new_width для корректного склеивания ниже
         height = new_height
         width = new_width
     
-    # Объединение в 3D изображение
+    # Объединение стереопары в 3D изображение
     if TYPE3D in ("HSBS", "HOU"):
         resize_dims = (width // 2, height) if TYPE3D == "HSBS" else (width, height // 2)
         stack_func = np.hstack if TYPE3D == "HSBS" else np.vstack
