@@ -102,7 +102,7 @@ def image_size_correction(current_height, current_width, left_image, right_image
     return new_left_image, new_right_image
             
 def depth_processing(image):
-    ''' Функция создания карты глубины для изображения '''
+    ''' Создание карты глубины для изображения '''
     
     # Вычисление глубины
     with torch.no_grad():
@@ -161,7 +161,7 @@ def image3d_combining(left_image, right_image, height, width):
         return stack_func((left_image, right_image)) if LEFT_RIGHT == "LEFT" else stack_func((right_image, left_image))
     
 def extract_frames(start_frame, end_frame):
-    ''' Функция разбивки файлов изображений по чанкам исходя из chunk_size '''
+    ''' Распределение файлов изображений по чанкам исходя из chunk_size '''
     
     frames_to_process = end_frame - start_frame + 1
     
