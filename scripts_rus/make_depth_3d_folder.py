@@ -85,7 +85,7 @@ model_depth = model_depth.to(device).eval()
 
 
 def image_size_correction(current_height, current_width, left_image, right_image):
-    ''' Коррекция размеров изображения если заданы new_width и new_height '''
+    ''' Коррекция размеров изображений если заданы new_width и new_height '''
     
     # Вычисляем смещения для центрирования
     top = (new_height - current_height) // 2
@@ -136,7 +136,7 @@ def image3d_processing(image, depth):
     return left_image, right_image, height, width
     
 def image3d_combining(left_image, right_image, height, width):   
-    ''' Функция объединения изображений стереопары в единое 3D изображение '''
+    ''' Объединение изображений стереопары в единое 3D изображение '''
     
     # Корректировка размеров изображений, если заданы new_width и new_height
     if new_width and new_height:
@@ -211,7 +211,7 @@ def chunk_processing(extracted_frames):
         threads_count.value = max(1, threads_count.value - 1) # Уменьшение счетчика после завершения текущего потока
     
 def run_processing():
-    ''' Глобальная функция старта обработки с учетом многопоточности'''
+    ''' Глобальная функция старта обработки с учетом многопоточности '''
     
     # Получение количества файлов в папке с исходниками
     total_frames = len([f for f in os.listdir(frames_dir) if os.path.isfile(os.path.join(frames_dir, f))])
