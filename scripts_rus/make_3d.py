@@ -52,7 +52,7 @@ new_height = 0
 
 
 def image_size_correction(current_height, current_width, left_image, right_image):
-    ''' Коррекция размеров изображения если заданы new_width и new_height '''
+    ''' Коррекция размеров изображений если заданы new_width и new_height '''
     
     # Вычисляем смещения для центрирования
     top = (new_height - current_height) // 2
@@ -91,7 +91,7 @@ def image3d_processing(image, depth):
     return left_image, right_image, height, width
     
 def image3d_combining(left_image, right_image, height, width):   
-    ''' Функция объединения изображений стереопары в единое 3D изображение '''
+    ''' Объединение изображений стереопары в единое 3D изображение '''
     
     # Корректировка размеров изображений, если заданы new_width и new_height
     if new_width and new_height:
