@@ -45,7 +45,7 @@ image_name = os.path.splitext(os.path.basename(image_path))[0]
 with torch.no_grad():
     depth = model_depth.infer_image(raw_img)
     
-# Нормализация значений глубины от 0 до 255
+# Нормализация глубины перед сохранением в файл
 depth_normalized = cv2.normalize(depth, None, 0, 255, norm_type=cv2.NORM_MINMAX, dtype=cv2.CV_8U)
 
 # Сохранение карты глубины
