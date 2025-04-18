@@ -109,7 +109,7 @@ def depth_processing(image):
         depth = model_depth.infer_image(image)
         
     # Нормализация глубины
-    depth_normalized = depth / depth.max()
+    depth_normalized = (depth - depth.min()) / (depth.max() - depth.min())
 
     return depth_normalized
 
