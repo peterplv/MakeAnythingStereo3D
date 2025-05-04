@@ -13,6 +13,6 @@ make_depth_3d_file.py - making both depth and 3d image for video file.
 ### Manuals
 Инструкции на русском (Russian manuals):   
 - [Как сделать 3D версию любого фильма на примере StarWars4 (DepthAnythingV2 + Parallax)](https://habr.com/ru/articles/897860/)
-- [Конвертация видео из 2D в 3D через нейросети (скрипт)](https://habr.com/ru/articles/906612/)
+- [Конвертация видео из 2D в 3D через нейросети и параллакс (скрипт)](https://habr.com/ru/articles/906612/)
 
 English manual: comming soon.
