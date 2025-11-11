@@ -264,7 +264,7 @@ def extract_frames(start_frame, end_frame):
 
         for i in range(chunk_end - chunk_start + 1):
             frame_number = chunk_start + i
-            frame_path = pattern % frame_number
+            frame_path = extract_frames_dir % frame_number
             extracted_frames.append(frame_path)
                 
     return extracted_frames
@@ -346,4 +346,5 @@ print("ГОТОВО.")
 
 # Очищаем Cuda
 del model_depth
+
 torch.cuda.empty_cache()
