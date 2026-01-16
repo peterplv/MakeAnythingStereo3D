@@ -1,6 +1,7 @@
 # MakeAnythingStereo3D
-![starwars4_r2d2_title](https://github.com/user-attachments/assets/81758a37-9c60-4136-85c4-3edc5a950101)
-*Example of the 2D to 3D conversion with Depth-Anything-V2 + Parallax*
+
+![Starwars4 droids depth](https://github.com/user-attachments/assets/348e6f7d-ebdb-486c-ade1-aaabfecb9aa0)
+*Example of a depth map*
 <br>
 
 ### Make anything (images/video) into stereoscopic 3D with Depth-Anything-V2
@@ -15,7 +16,7 @@
 Depth-Anything-V2 main page: [https://github.com/DepthAnything/Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2)  
 Depth-Anything-V2 models: [https://github.com/DepthAnything/Depth-Anything-V2#pre-trained-models](https://github.com/DepthAnything/Depth-Anything-V2#pre-trained-models)  
 <br>
-![starwars4_darth_vader_depth](https://github.com/user-attachments/assets/17a24ef0-5ed7-47f0-a7a8-a200e3078a94)
+![starwars4 darth vader depth](https://github.com/user-attachments/assets/373afdc3-2e00-4384-a88f-14b04428ce4c)
 *Example of a depth map*
 <br>
 <br>
@@ -35,5 +36,6 @@ English manuals:
 [Конвертация видео из 2D в 3D через нейросети и параллакс (скрипт)](https://habr.com/ru/articles/906612/)  
 <br>
 
-![starwars4_droids_depth](https://github.com/user-attachments/assets/7df5eaa5-abbe-4322-a045-41efe67b9164)
-*Example of a depth map*
+Example of the 2D to 3D conversion with Depth-Anything-V2 + Parallax:  
+![Starwars4 R2D2 3d](https://github.com/user-attachments/assets/03ecbde3-fd6c-4963-a139-a12345641353)
+
