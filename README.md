@@ -1,15 +1,15 @@
 # MakeAnythingStereo3D
 
 ![Starwars4 droids depth](https://github.com/user-attachments/assets/348e6f7d-ebdb-486c-ade1-aaabfecb9aa0)
-*Example of depth map*
+*Example of a depth map*
 <br>
 
-### Make anything (images/video) into stereoscopic 3D with Depth-Anything-V2
+### Make anything (images/video) into stereoscopic 3D with DepthAnything2
 ### Scripts
 **make_depth.py** - only for generating depth for a single image.  
 **make_3d.py** - only for creating a single 3D image with depth from make_depth.py.  
-**make_depth_3d_folder.py** - making both depth and 3d images step by step for whole folder.  
-**make_depth_3d_file.py** - making both depth and 3d images for video file.  
+**make_depth_3d_folder.py** - making both depths and 3d images step by step for whole folder.  
+**make_depth_3d_file.py** - making both depths and 3d images for video file.  
 <br>
 
 ### Main models
@@ -17,7 +17,7 @@ Depth-Anything-V2 main page: [https://github.com/DepthAnything/Depth-Anything-V2
 Depth-Anything-V2 models: [https://github.com/DepthAnything/Depth-Anything-V2#pre-trained-models](https://github.com/DepthAnything/Depth-Anything-V2#pre-trained-models)  
 <br>
 ![starwars4 darth vader depth](https://github.com/user-attachments/assets/373afdc3-2e00-4384-a88f-14b04428ce4c)
-*Example of depth map*
+*Example of a depth map*
 <br>
 <br>
 
