@@ -1,16 +1,23 @@
 # MakeAnythingStereo3D
+![starwars4_r2d2_title](https://github.com/user-attachments/assets/81758a37-9c60-4136-85c4-3edc5a950101)
+*Example of the 2D to 3D conversion with Depth-Anything-V2 + Parallax*
+<br>
 
 ### Make anything (images/video) into stereoscopic 3D with Depth-Anything-V2
 ### Scripts
 **make_depth.py** - only for generating depth for a single image.  
 **make_3d.py** - only for creating a single 3D image with depth from make_depth.py.  
 **make_depth_3d_folder.py** - making both depth and 3d images step by step for whole folder.  
-**make_depth_3d_file.py** - making both depth and 3d images for video file.
+**make_depth_3d_file.py** - making both depth and 3d images for video file.  
 <br>
 
 ### Main models
 Depth-Anything-V2 main page: [https://github.com/DepthAnything/Depth-Anything-V2](https://github.com/DepthAnything/Depth-Anything-V2)  
 Depth-Anything-V2 models: [https://github.com/DepthAnything/Depth-Anything-V2#pre-trained-models](https://github.com/DepthAnything/Depth-Anything-V2#pre-trained-models)  
+<br>
+![starwars4_darth_vader_depth](https://github.com/user-attachments/assets/17a24ef0-5ed7-47f0-a7a8-a200e3078a94)
+*Example of a depth map*
+<br>
 <br>
 
 ### Manuals
@@ -25,4 +32,8 @@ English manuals:
 - Основная инструкция со всеми деталями, затрагивает скрипты **make_depth.py**, **make_3d.py**, **make_depth_3d_folder.py**:  
 [Как сделать 3D версию любого фильма на примере StarWars4 (DepthAnythingV2 + Parallax)](https://habr.com/ru/articles/897860/)
 - Дополнительная инструкция для конвертации из видеофайла напрямую, затрагивает скрипт **make_depth_3d_file.py**:  
-[Конвертация видео из 2D в 3D через нейросети и параллакс (скрипт)](https://habr.com/ru/articles/906612/)
+[Конвертация видео из 2D в 3D через нейросети и параллакс (скрипт)](https://habr.com/ru/articles/906612/)  
+<br>
+
+![starwars4_droids_depth](https://github.com/user-attachments/assets/7df5eaa5-abbe-4322-a045-41efe67b9164)
+*Example of a depth map*
