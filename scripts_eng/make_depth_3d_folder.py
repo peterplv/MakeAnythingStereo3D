@@ -20,7 +20,7 @@ frames_path_name = os.path.basename(os.path.normpath(frames_path))
 images3d_path = os.path.join(os.path.dirname(frames_path), f"{frames_path_name}_3d")
 os.makedirs(images3d_path, exist_ok=True)
 
-# Get a list of all files in the directory
+# List of source frames in the directory
 all_frames = [
     os.path.join(frames_path, file_name) 
     for file_name in os.listdir(frames_path) 
@@ -295,4 +295,5 @@ run_processing()
 
 # Delete model and clear Cuda cache
 del model_depth
+
 torch.cuda.empty_cache()
